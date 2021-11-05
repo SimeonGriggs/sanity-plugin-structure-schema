@@ -68,7 +68,7 @@ const structureSchemaItems = [
   S.documentTypeListItem(`project`).title(`Legacy Projects`),
   {schemaType: `post`, title: `Posts`, children: [
     {schemaType: `post`, title: `Future Posts`, filter: `dateTime(now()) < dateTime(publishedAt)`}
-    {schemaType: `post`, title: `Past Posts`, filter: `dateTime(now()) < dateTime(publishedAt)`}
+    {schemaType: `post`, title: `Past Posts`, filter: `dateTime(now()) > dateTime(publishedAt)`}
   ]},
 ]
 ```
