@@ -1,10 +1,11 @@
 # sanity-plugin-structure-schema
 
 Create Sanity Desk Structure with a similar syntax to Schema.
+## Look, I'll level with you
 
-🚨 This plugin is a proof of concept and should not be treated like a reliable, production-ready or supported project. Tread lightly.
+This plugin is a proof of concept and should not be treated like a reliable, production-ready or supported or officially endorsed project. Sure, I work at Sanity, but that's not to say this plugin is a good idea. I personally find it useful. 
 
-Feedback welcome.
+YMMV. Tread lightly. Feedback welcome.
 
 ## Installation
 
